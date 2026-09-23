@@ -11,8 +11,6 @@ public class TestCasesPage {
     private final SelenideElement titleInput = $("[data-testid=\"addEditCaseTitle\"]");
     private final SelenideElement saveButton = $("[id=\"accept\"]");
     private final SelenideElement idCase = $("[data-testid=\"testCaseContentHeaderTitle\"]");
-    private final SelenideElement permDelete = $("[data-testid=\"deleteCaseDialogActionSecondary\"]");
-    private final SelenideElement lastDelete = $("[data-testid=\"deleteCaseDialogActionDefault\"]");
     private final SelenideElement navigateTestButton = $("[data-testid=\"navigateToCasesButton\"]");
 
 

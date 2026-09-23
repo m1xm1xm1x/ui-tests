@@ -28,6 +28,7 @@ public class TestRunPage {
         checkOpenTestRun.shouldHave(text("Add Test Run"));
     }
     public void nameTestRun(String name) {
+        inputNameRun.shouldBe(editable).click();
         inputNameRun.setValue(name);
         inputNameRun.shouldHave(value(name));
     }
